@@ -121,6 +121,7 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    margin-bottom: 2rem;
   }
 
   .left-showcase {
@@ -159,10 +160,11 @@
   
   /* Home cards */
   .home-cards {
+    width: 90%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 20px;
-    margin-bottom: 40px;
+    margin: 0 auto;
   }
   
   .home-cards img {
