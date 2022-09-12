@@ -49,7 +49,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Microverse: [theGymRwanda](https://www.thegym-rwanda.com/)
+- The Gym: [theGymRwanda](https://www.thegym-rwanda.com/)
 
 ## 📝 License
 
