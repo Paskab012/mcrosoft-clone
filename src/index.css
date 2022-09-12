@@ -121,7 +121,6 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin-bottom: 2rem;
   }
 
   .left-showcase {
@@ -156,6 +155,64 @@
   
   .showcase .btn {
     margin-top: 20px;
+  }
+
+  .arrow {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+.carousel {
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
+  .arrow img {
+    width: 40%;
+    cursor: pointer;
+  }
+
+  .links {
+    background: white!important;
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+
+  }
+
+  .blue-links-links {
+    width: 100%;
+    display: flex;
+    justify: center;
+    flex-wrap: wrap;
+
+  }
+
+  .flex {
+    display: flex;
+    width: 20%;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin-bottom
+  }
+
+  .flex img {
+    width: 30%;
+    margin: 0 auto;
+  }
+
+  .flex a {
+    font-size: 14px;
+    color: #0067b8;
+    text-decoration: underline;
+    font-weight: bold;
+  }
+
+  .blue-links-links {
+    display: flex;
+
   }
   
   /* Home cards */
@@ -207,14 +264,45 @@
   
   /* Carbon */
   .carbon {
-    width: 100%;
-    height: 350px;
-    background: url('https://i.ibb.co/72cgtsz/carbon.jpg') no-repeat center center/cover;
+    width: 90%;
+    height: 450px;
+    background: aqua;
+    display: flex;
+    margin: 0 auto;
   }
   
   .carbon .content {
     width: 55%;
-    padding: 100px 0 0 30px;
+    padding: 50px 0 0 60px;
+    background: red;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .content-flex {
+    display: flex;
+    background: purple;
+    width: 50%;
+    justify-content: center;
+  }
+
+  .content-flex img {
+    width: 100%;
+  }
+
+  .content .btn {
+        cursor: pointer;
+        display: inline-block;
+        border: 0;
+        font-weight: bold;
+        padding: 10px 10px;
+        background: #0067b8;
+        color: #fff;
+        font-size: 15px;
+        width: 80%;
+        border-radius: 2px;
+        text-align: center;
   }
   
   /* Follow */
@@ -372,8 +460,8 @@
       display: none;
     }
   
-    .xbox .content h2 {
-      margin-bottom: 20px;
+ .content h2 {
+      margin-bottom: 46px !important;
     }
   
     .carbon .content {
