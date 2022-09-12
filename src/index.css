@@ -186,7 +186,6 @@
     display: flex;
     justify: center;
     flex-wrap: wrap;
-
   }
 
   .flex {
@@ -266,15 +265,34 @@
   .carbon {
     width: 90%;
     height: 450px;
-    background: aqua;
     display: flex;
     margin: 0 auto;
+    background: #f2f2f2;
+    color: black;
+  }
+
+  .cocos {
+    width: 90%;
+    height: 450px;
+    display: flex;
+    margin: 0 auto;
+    background: url('../assets/microsoft.avif')
+    color: black;
   }
   
   .carbon .content {
     width: 55%;
     padding: 50px 0 0 60px;
-    background: red;
+    background: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .cocos .content {
+    width: 55%;
+    padding: 50px 0 0 60px;
+    background: #f2f2f2;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -282,13 +300,14 @@
 
   .content-flex {
     display: flex;
-    background: purple;
     width: 50%;
     justify-content: center;
+    align-items:center;
   }
 
   .content-flex img {
-    width: 100%;
+    width: 80%;
+    height: 60%;
   }
 
   .content .btn {
