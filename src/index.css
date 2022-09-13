@@ -234,14 +234,18 @@
   
   .home-cards a {
     display: inline-block;
-    padding-top: 10px;
+    padding-top: 13px;
     color: #0067b8;
-    text-transform: uppercase;
+    margin: 0.5rem;
     font-weight: bold;
   }
   
   .home-cards a:hover i {
-    margin-left: 10px;
+    margin-left: 4px;
+  }
+
+  .home-cards a:hover {
+    text-decoration: underline;
   }
   
   /* Xbox */
@@ -272,11 +276,11 @@
   }
 
   .cocos {
-    width: 90%;
+    width: 100%;
     height: 450px;
     display: flex;
     margin: 0 auto;
-    background: url('../assets/microsoft.avif')
+    background: url('https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Coco-Gauff-New-Balance-Surface:VP1-539x440')
     color: black;
   }
   
@@ -439,6 +443,7 @@
         display: flex;
         justify-content: center;
     }
+
     .menu-btn:hover {
       opacity: 0.5;
     }
@@ -479,14 +484,54 @@
       display: none;
     }
   
+    .carbon {
+      display: flex;
+      flex-direction: column-reverse;
+      justify-content: center;
+      align-items: center;
+      margin-top: 4rem;
+      margin-bottom: 6rem;
+
+    }
  .content h2 {
       margin-bottom: 46px !important;
     }
   
     .carbon .content {
-      width: 85%;
+      width: 100%!important;
+      background: white;
+      height: 100%;
+      display: flex;
+      justify-content: flex-start; 
+      margin-bottom: 2rem;
+    }
+
+    .carbon .content-flex {
+      width: 100%!important;
+      min-height: 60%!important;
+    }
+
+    .carbon .content-flex img {
+      width: 100%!important;
+      object-fit: contain;
+      height: 100%!important;
+
+    }
+
+    .content .windows {
+      width: 70%;
+      margin-left: -59px;
     }
   
+    .content .windows a{
+      width: 50%;
+      font-size: 11px;
+    }
+
+    h4 {
+      font-size: 22px;
+      margin: 0.5rem 2.5rem;
+    }
     .links .links-inner {
       grid-template-columns: repeat(2, 1fr);
     }
