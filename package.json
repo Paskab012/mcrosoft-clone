@@ -1,0 +1,25 @@
+{
+  "name": "mcrosoft-clone",
+  "version": "1.0.0",
+  "description": "![](https://www.thegym-rwanda.com/)",
+  "main": "index.js",
+  "scripts": {
+    "start": "vite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Paskab012/mcrosoft-clone.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Paskab012/mcrosoft-clone/issues"
+  },
+  "homepage": "https://github.com/Paskab012/mcrosoft-clone#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.10",
+    "postcss": "^8.4.16",
+    "tailwindcss": "^3.1.8",
+    "vite": "^3.1.0"
+  }
+}
