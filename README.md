@@ -2,8 +2,6 @@
 
 ![](https://www.thegym-rwanda.com/)
 
-> A small rails react project setup.
-
 ## Run the project
 
 `Go live`
