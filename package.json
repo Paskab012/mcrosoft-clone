@@ -4,7 +4,8 @@
   "description": "![](https://www.thegym-rwanda.com/)",
   "main": "index.js",
   "scripts": {
-    "start": "vite"
+    "start": "vite",
+    "build": "tailwindcss build -i /src/index.css -o /src/tailwindcss.css"
   },
   "repository": {
     "type": "git",
